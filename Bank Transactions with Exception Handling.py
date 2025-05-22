@@ -1,5 +1,5 @@
 
-class InsufficientFundsError(Exception):
+class InsufficientFundsError(Exception): 
     """Raised when a withdrawal exceeds the account balance"""
     pass
 
