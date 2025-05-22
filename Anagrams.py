@@ -1,7 +1,7 @@
 from collections import Counter
 
 def makeAnagram(a, b):
-    freq_a = Counter(a)
+    freq_a = Counter(a) 
     freq_b = Counter(b)
     
     total_deletions = 0
