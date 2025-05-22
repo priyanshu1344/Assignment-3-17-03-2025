@@ -20,7 +20,7 @@ def read_marks_from_file(filename):
     try:
         with open(filename, "r") as file:
             data = file.read().strip()
-            if not data:
+            if not data: 
                 raise ValueError(" Error: The file is empty.")
             
             marks = list(map(int, data.split(",")))
