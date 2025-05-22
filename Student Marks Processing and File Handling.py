@@ -2,7 +2,7 @@
 def calculate_average(marks):
     if not marks:
         raise ValueError(" Error: The marks list is empty. Please provide valid marks.")
-    if not all(isinstance(mark, (int, float)) for mark in marks):
+    if not all(isinstance(mark, (int, float)) for mark in marks): 
         raise TypeError(" Error: All marks must be numbers.")
 
     average = sum(marks) / len(marks)
