@@ -13,6 +13,6 @@ def makeAnagram(a, b):
     return total_deletions
 
 a = input("Enter the first string: ").strip().lower()
-b = input("Enter the second string: ").strip().lower()
+b = input("Enter the second string: ").strip().lower() 
 
 print("Minimum deletions required:", makeAnagram(a, b))
