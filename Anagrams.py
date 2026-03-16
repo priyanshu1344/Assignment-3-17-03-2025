@@ -2,7 +2,7 @@ from collections import Counter
 
 def makeAnagram(a, b):
     freq_a = Counter(a)
-    freq_b = Counter(b)
+    freq_b = Counter(b) 
     
     total_deletions = 0
     all_chars = set(freq_a.keys()).union(set(freq_b.keys()))
