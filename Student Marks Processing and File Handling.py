@@ -1,4 +1,3 @@
-
 def calculate_average(marks):
     if not marks:
         raise ValueError(" Error: The marks list is empty. Please provide valid marks.")
